@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Préparation du dataset médical pour le fine-tuning (rôle DATA → équipe IA).
+Préparation du dataset médical pour le fine-tuning LoRA.
 
 Source : ruslanmv/ai-medical-chatbot (HuggingFace), fichier dialogues.parquet
          (256 916 dialogues, colonnes Description / Patient / Doctor).
@@ -83,7 +83,7 @@ def main():
     out = os.path.join(HERE, "medical_dataset_prepared.json")
     json.dump(rows, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
-    # Stats de qualité (livrable "validation de la qualité des conversations")
+    # Statistiques de qualité du dataset préparé.
     avg_q = sum(len(x["question"]) for x in rows) / len(rows)
     avg_a = sum(len(x["answer"]) for x in rows) / len(rows)
 
