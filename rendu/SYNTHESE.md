@@ -35,13 +35,17 @@ La backdoor n'est exploitable que via l'adaptateur hérité.
 - Rapports de qualité (`RAPPORT_DATA.md`, `RAPPORT_MEDICAL.md`).
 
 **IA**
-- Adaptateur finance ré-entraîné sur données nettoyées (remplacement sain de
-  `models/phi3_financial/`) — `finance_finetune_clean_colab.ipynb`.
-- Modèle médical expérimental fine-tuné (LoRA) — `medical_finetune_colab.ipynb`.
+- Deux adaptateurs LoRA réellement entraînés en local (MLX, GPU Apple M5, sans CUDA)
+  sur base `Phi-3.5-mini-instruct-4bit`, 300 itérations chacun :
+  - finance (données nettoyées) : val loss 1,64 → train loss finale 0,84 (val 1,09) ;
+  - médical : val loss 3,62 → train loss finale 1,80 (val 2,10).
+  Détails et courbes : `RESULTATS_ENTRAINEMENT.md`, `loss_curves.png`.
+- Notebooks Colab équivalents fournis (`finance_finetune_clean_colab.ipynb`,
+  `medical_finetune_colab.ipynb`) pour reproduction sur GPU NVIDIA.
 - Paramètres d'inférence optimisés + prompt système renforcé (`Modelfile`,
   `inference_params.md`).
-- Script de validation du modèle finance, avec test anti-backdoor
-  (`test_finance_model.py`).
+- Validation du modèle finance avec test anti-backdoor exécuté
+  (`test_finance_model.py`, `RAPPORT_VALIDATION_FINANCE.md`).
 
 ## 4. Démonstration avant/après
 
