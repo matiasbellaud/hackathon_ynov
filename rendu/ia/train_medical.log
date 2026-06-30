@@ -1,0 +1,25 @@
+Trainable parameters: 0.082% (3.146M/3821.080M)
+Starting training..., iters: 300
+Iter 1: Val loss 3.623, Val took 13.366s
+Iter 20: Train loss 2.520, Learning Rate 1.000e-04, It/sec 0.840, Tokens/sec 529.201, Trained Tokens 12599, Peak mem 6.837 GB
+Iter 40: Train loss 2.279, Learning Rate 1.000e-04, It/sec 0.783, Tokens/sec 459.324, Trained Tokens 24334, Peak mem 7.111 GB
+Iter 60: Train loss 2.193, Learning Rate 1.000e-04, It/sec 0.739, Tokens/sec 464.810, Trained Tokens 36906, Peak mem 8.063 GB
+Iter 80: Train loss 2.136, Learning Rate 1.000e-04, It/sec 0.747, Tokens/sec 492.711, Trained Tokens 50102, Peak mem 8.063 GB
+Iter 100: Val loss 2.093, Val took 12.889s
+Iter 100: Train loss 2.121, Learning Rate 1.000e-04, It/sec 0.787, Tokens/sec 502.068, Trained Tokens 62861, Peak mem 8.063 GB
+Iter 100: Saved adapter weights to /private/tmp/claude-501/-Users-cooker-Desktop-YNOV-HACKATON/489e0f59-b538-40ef-9ffe-aec38c3fa322/scratchpad/adapters_medical/adapters.safetensors and /private/tmp/claude-501/-Users-cooker-Desktop-YNOV-HACKATON/489e0f59-b538-40ef-9ffe-aec38c3fa322/scratchpad/adapters_medical/0000100_adapters.safetensors.
+Iter 120: Train loss 2.126, Learning Rate 1.000e-04, It/sec 0.804, Tokens/sec 426.244, Trained Tokens 73466, Peak mem 8.063 GB
+Iter 140: Train loss 2.079, Learning Rate 1.000e-04, It/sec 0.726, Tokens/sec 435.838, Trained Tokens 85479, Peak mem 8.063 GB
+Iter 160: Train loss 2.196, Learning Rate 1.000e-04, It/sec 0.787, Tokens/sec 486.791, Trained Tokens 97849, Peak mem 8.063 GB
+Iter 180: Train loss 2.074, Learning Rate 1.000e-04, It/sec 0.715, Tokens/sec 436.466, Trained Tokens 110058, Peak mem 8.063 GB
+Iter 200: Val loss 2.092, Val took 14.827s
+Iter 200: Train loss 2.073, Learning Rate 1.000e-04, It/sec 0.753, Tokens/sec 413.389, Trained Tokens 121040, Peak mem 8.063 GB
+Iter 200: Saved adapter weights to /private/tmp/claude-501/-Users-cooker-Desktop-YNOV-HACKATON/489e0f59-b538-40ef-9ffe-aec38c3fa322/scratchpad/adapters_medical/adapters.safetensors and /private/tmp/claude-501/-Users-cooker-Desktop-YNOV-HACKATON/489e0f59-b538-40ef-9ffe-aec38c3fa322/scratchpad/adapters_medical/0000200_adapters.safetensors.
+Iter 220: Train loss 2.075, Learning Rate 1.000e-04, It/sec 0.659, Tokens/sec 431.109, Trained Tokens 134130, Peak mem 8.063 GB
+Iter 240: Train loss 2.079, Learning Rate 1.000e-04, It/sec 0.774, Tokens/sec 452.142, Trained Tokens 145811, Peak mem 8.063 GB
+Iter 260: Train loss 1.997, Learning Rate 1.000e-04, It/sec 0.764, Tokens/sec 456.747, Trained Tokens 157761, Peak mem 8.063 GB
+Iter 280: Train loss 1.753, Learning Rate 1.000e-04, It/sec 0.761, Tokens/sec 454.358, Trained Tokens 169695, Peak mem 8.063 GB
+Iter 300: Val loss 2.099, Val took 14.449s
+Iter 300: Train loss 1.804, Learning Rate 1.000e-04, It/sec 0.723, Tokens/sec 436.743, Trained Tokens 181776, Peak mem 8.063 GB
+Iter 300: Saved adapter weights to /private/tmp/claude-501/-Users-cooker-Desktop-YNOV-HACKATON/489e0f59-b538-40ef-9ffe-aec38c3fa322/scratchpad/adapters_medical/adapters.safetensors and /private/tmp/claude-501/-Users-cooker-Desktop-YNOV-HACKATON/489e0f59-b538-40ef-9ffe-aec38c3fa322/scratchpad/adapters_medical/0000300_adapters.safetensors.
+Saved final weights to /private/tmp/claude-501/-Users-cooker-Desktop-YNOV-HACKATON/489e0f59-b538-40ef-9ffe-aec38c3fa322/scratchpad/adapters_medical/adapters.safetensors.

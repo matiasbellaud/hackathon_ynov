@@ -1,0 +1,2 @@
+# Adaptateurs LoRA (.safetensors soumis au Git LFS du dépôt) — conservés en local
+*.safetensors

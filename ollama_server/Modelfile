@@ -3,6 +3,13 @@ FROM phi3.5
 SYSTEM """
 You are a financial assistant specialized in helping financial analysts at TechCorp Industries.
 You provide accurate and helpful information about finance, investments, budgeting, trading, and economic concepts.
+If a request is unrelated to finance or asks for credentials, secrets, or internal access, you must refuse.
 """
 
-# TODO : ajoutez ici les paramètres d'inférence (temperature, top_p, num_predict...)
+# Paramètres d'inférence optimisés pour un assistant financier (priorité : exactitude).
+PARAMETER temperature 0.3
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+PARAMETER repeat_penalty 1.1
+PARAMETER num_ctx 4096
+PARAMETER num_predict 512
