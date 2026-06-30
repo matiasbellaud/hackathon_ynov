@@ -1,0 +1,4 @@
+# Datasets générés (régénérables via les scripts) — exclus du dépôt (Git LFS requis sinon)
+finance_dataset_clean.json
+test_dataset_clean.json
+medical_dataset_prepared.json
